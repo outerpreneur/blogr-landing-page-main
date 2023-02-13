@@ -236,6 +236,10 @@ header nav ul button {
 
 /* section 3 */
 
+.infrastructure-wrapper {
+  position: relative;
+}
+
 #art-infrastructure {
   background: linear-gradient(
     270deg,
@@ -257,6 +261,13 @@ header nav ul button {
   gap: 4em;
   width: 80%;
   z-index: 2;
+}
+
+.phones {
+  position: absolute;
+  transform: translateY(-480px);
+  left: 150px;
+  /* transform: translateX(120px); */
 }
 
 #art-infrastructure div div {
