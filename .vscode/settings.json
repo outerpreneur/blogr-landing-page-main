@@ -1,0 +1,30 @@
+{
+    // Deprecated v2.3.0 Settings
+    // "liquid.format": true,
+    // "liquid.rules": {},
+  
+    // New v3.0.0 Settings
+    //
+    "liquid.engine": "shopify",
+    "liquid.config.baseUrl": ".",
+    "liquid.settings.target": "workspace",
+    "liquid.completion.tags": true,
+    "liquid.completion.objects": true,
+    "liquid.completion.filters": true,
+    "liquid.format.enable": true,  //  instead of "liquid.format": true,
+    "liquid.format.ignore": [],
+    "liquid.format.wrap": 0,
+    "liquid.format.indentSize": 2,
+    "liquid.format.endNewLine": false,
+    "liquid.format.commentIndent": false,
+    "liquid.format.preserveLine": 3,
+    "liquid.format.preserveComment": false,
+    "liquid.format.crlf": false,
+    "liquid.format.markup": {},
+    "liquid.format.script": {},
+    "liquid.format.style": {},
+    "liquid.format.json": {},
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    }
+  
