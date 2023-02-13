@@ -60,6 +60,10 @@ header {
   align-items: center;
 }
 
+.logo {
+  width: 150px;
+}
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -78,6 +82,7 @@ header nav ul {
 header nav ul li {
   gap: 2em;
   color: var(--White-text);
+  font-size: 1.2em;
 }
 
 header nav ul button {
@@ -88,6 +93,7 @@ header nav ul button {
   font-size: var(--regular-font-size);
   color: var(--Light-red-CTA-text-);
   font-family: var(--font-ubuntu);
+  font-weight: 900;
 }
 
 /* sections */
@@ -143,13 +149,89 @@ header nav ul button {
 #modern-platform div div button {
   display: inline;
   border: 1px white solid;
-  border-radius: 20px;
+  border-radius: 35px;
   font-size: var(--regular-font-size);
   color: var(--Light-red-CTA-text-);
   font-family: var(--font-ubuntu);
-  padding: 15px 30px;
+  padding: 20px 30px;
   background-color: transparent;
   color: var(--White-text);
+  font-weight: 700;
+}
+
+.accent-button {
+  background-color: white !important;
+  color: var(--Light-red-CTA-text-) !important;
+}
+
+/*  section 2 */
+
+#designed-future {
+  margin: 6em 0;
+  height: 1100px;
+  background-image: url(./images/illustration-editor-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 180% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#designed-future .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8em;
+  width: 80%;
+  flex: 1;
+}
+
+.container h2 {
+  font-family: var(--font-overpass);
+  font-size: 3.2em;
+  color: var(--Very-dark-blue-headings-);
+}
+
+.wrapper {
+  display: flex;
+  gap: 2em;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.text {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 6em;
+}
+
+.text h3 {
+  font-size: 2.2em;
+  font-family: var(--font-overpass);
+  color: var(--Very-dark-blue-headings-);
+  margin-bottom: 1em;
+}
+
+.text p {
+  line-height: 1.8;
+  font-family: var(--font-ubuntu);
+  color: var(--Very-dark-grayish-blue-body-copy);
+}
+
+.block {
+  display: block;
+  width: 100%;
+  flex: 1;
 }
 
 /* utilities */
