@@ -382,11 +382,18 @@ footer {
 
 .footer-inner {
   width: 77%;
+  display: flex;
+  align-items: center;
+  gap: 10em;
+}
+
+.footer-logo {
+  align-self: flex-start;
 }
 
 .footer-menu {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
 }
 
 .footer-menu h5 {
@@ -399,11 +406,11 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 1em;
-  cursor: pointer;
 }
 
 .footer-menu li {
   color: var(--Grayish-blue-footer-text);
+  cursor: pointer;
 }
 /* utilities */
 
@@ -470,7 +477,7 @@ footer {
   #designed-future .container h2 {
     text-align: center;
     font-size: 2em;
-    margin-bottom: 14em;
+    margin-bottom: 18em;
   }
   .wrapper {
     flex-direction: column;
@@ -513,6 +520,11 @@ footer {
   footer .footer-inner {
     margin-top: 4em;
     margin-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
   }
 
   .footer-menu {
@@ -523,12 +535,9 @@ footer {
   }
 
   .footer-logo {
-    background-color: aqua;
     margin: 0 auto;
-    background-color: red;
   }
-  .footer-menu,
-  .footer-menu img {
+  .footer-menu {
     gap: 2.5em;
   }
 }
