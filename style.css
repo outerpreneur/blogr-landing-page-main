@@ -121,6 +121,11 @@ header nav ul button:hover {
   padding: 1.4em;
 }
 
+.arrow {
+  display: inline;
+  margin-left: 5px;
+}
+
 .sub-menu li {
   cursor: pointer;
 }
@@ -462,15 +467,22 @@ footer {
   display: none;
 }
 
+.menu-mobile-hidden {
+  display: none;
+}
+
 /* Responsive styles */
 
 @media (max-width: 1200px) {
   .menu-desktop {
     display: none;
   }
-  .hamburger-menu {
+  .menu-mobile-hidden {
     display: block;
   }
+  /* .menu-mobile-closed {
+    display: block;
+  } */
   #modern-platform {
     height: 700px;
   }
