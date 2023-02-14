@@ -246,7 +246,7 @@ header nav ul button {
     var(--Very-dark-black-blue-footer-background),
     var(--Very-dark-blue-headings-)
   );
-  height: 400px;
+  height: 450px;
   border-radius: 0 100px 0 100px;
   display: flex;
   justify-content: center;
@@ -348,6 +348,44 @@ header nav ul button {
   width: 100%;
 }
 
+/* footer */
+
+footer {
+  height: 450px;
+  background-color: var(--Very-dark-black-blue-footer-background);
+  width: 100%;
+  color: var(--White-text);
+  border-radius: 0 100px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--font-ubuntu);
+}
+
+.footer-inner {
+  width: 77%;
+}
+
+.footer-menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footer-menu h5 {
+  font-weight: 900;
+  margin-bottom: 2em;
+}
+
+.footer-menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.footer-menu li {
+  color: var(--Grayish-blue-footer-text);
+}
 /* utilities */
 
 .hidden {
