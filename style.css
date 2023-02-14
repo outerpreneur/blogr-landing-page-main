@@ -443,13 +443,15 @@ footer {
   #modern-platform div div button {
     width: 100%;
     border-radius: 30px;
+    padding: 15px 18px;
+    font-size: 1em;
   }
   .phones {
     position: absolute;
-    width: 350px;
+    width: 280px;
     margin: 0 auto;
-    left: 70px;
-    transform: translateY(-770px);
+    left: 50px;
+    transform: translateY(-750px);
   }
   .header-inner-content {
     justify-content: space-between;
