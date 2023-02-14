@@ -187,29 +187,29 @@ header nav ul button {
   flex: 1;
 }
 
-.container h2 {
+#designed-future .container h2 {
   font-family: var(--font-overpass);
   font-size: 3.2em;
   color: var(--Very-dark-blue-headings-);
 }
 
-.wrapper {
+#designed-future .wrapper {
   display: flex;
   gap: 2em;
 }
 
-.column {
+#designed-future .column {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
-.text {
+#designed-future .text {
   width: 75%;
   margin: 0 auto;
 }
 
-.text {
+#designed-future .text {
   display: flex;
   flex-direction: column;
   gap: 6em;
@@ -267,7 +267,6 @@ header nav ul button {
   position: absolute;
   transform: translateY(-480px);
   left: 150px;
-  /* transform: translateX(120px); */
 }
 
 #art-infrastructure div div {
@@ -281,12 +280,13 @@ header nav ul button {
 #art-infrastructure div div h3 {
   font-size: 2.7em;
   font-family: var(--font-overpass);
+  font-weight: 300;
 }
 
 #art-infrastructure div div p {
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-family: var(--font-ubuntu);
-  line-height: 1.6;
+  line-height: 1.8;
   font-weight: 400;
 }
 
@@ -295,6 +295,57 @@ header nav ul button {
   z-index: 1;
   left: -220px;
   top: -500px;
+}
+
+/* SECTION 4 */
+
+#free-powerful-tooling {
+  margin: 6em 0;
+  height: 1100px;
+  background-image: url(./images/illustration-laptop-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: 75%;
+  background-position: -120% 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#free-powerful-tooling .wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#free-powerful-tooling .column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#free-powerful-tooling div div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--White-text);
+  gap: 1.5em;
+}
+
+#free-powerful-tooling .text {
+  width: 75%;
+  margin: 0 auto;
+  background-color: ;
+}
+
+#free-powerful-tooling .text {
+  display: flex;
+  flex-direction: column;
+  gap: 6em;
+}
+
+.tooling-block {
+  display: block;
+  flex: 1;
+  width: 100%;
 }
 
 /* utilities */
