@@ -517,18 +517,11 @@ footer {
 
 .footer-inner {
   width: 77%;
-  display: flex;
-  align-items: center;
-  gap: 10em;
-}
-
-.footer-logo {
-  align-self: flex-start;
 }
 
 .footer-menu {
   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-template-columns: repeat(4, minmax(300px, 1fr));
 }
 
 .footer-menu h5 {
