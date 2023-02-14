@@ -124,6 +124,7 @@ header nav ul button:hover {
 .arrow {
   display: inline;
   margin-left: 5px;
+  transition: transform 2s infinite linear;
 }
 
 .sub-menu li {
@@ -465,6 +466,11 @@ footer {
 
 .hidden {
   display: none;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: rotation 2s infinite linear;
 }
 
 .menu-mobile-hidden {

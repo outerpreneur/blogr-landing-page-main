@@ -5,6 +5,6 @@ menuDesktopItem.forEach((link) => {
   link.addEventListener("click", () => {
     console.log(link.childNodes[1]);
     link.nextElementSibling.classList.toggle("hidden");
-    link.childNodes[1].style.transform = "rotate(180deg)";
+    link.childNodes[1].classList.toggle("rotate");
   });
 });
