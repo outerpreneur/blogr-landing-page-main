@@ -79,10 +79,16 @@ header nav ul {
   gap: 2em;
 }
 
-header nav ul li {
+.menu-link {
   gap: 2em;
-  color: var(--White-text);
+  color: rgb(248, 247, 247);
   font-size: 1.2em;
+  cursor: pointer;
+}
+
+header nav ul li:hover {
+  text-decoration: underline;
+  color: #fff;
 }
 
 header nav ul button {
@@ -95,11 +101,49 @@ header nav ul button {
   font-family: var(--font-ubuntu);
   font-weight: 900;
   cursor: pointer;
+  position: relative;
 }
 
 header nav ul button:hover {
   background-color: var(--Very-light-red-CTA-hover-background-);
   color: #fff;
+}
+
+/* submenus  */
+.sub-menu {
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000000;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1.4em;
+}
+
+.sub-menu li {
+  cursor: pointer;
+}
+
+.sub-menu li:hover {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.product {
+  top: 130px;
+  left: 285px;
+}
+
+.company {
+  top: 130px;
+  left: 425px;
+}
+
+.connect {
+  top: 130px;
+  left: 535px;
 }
 
 /* sections */
