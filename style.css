@@ -61,7 +61,7 @@ header {
 }
 
 .logo {
-  width: 150px;
+  margin-right: 2em;
 }
 
 header nav {
@@ -94,6 +94,12 @@ header nav ul button {
   color: var(--Light-red-CTA-text-);
   font-family: var(--font-ubuntu);
   font-weight: 900;
+  cursor: pointer;
+}
+
+header nav ul button:hover {
+  background-color: var(--Very-light-red-CTA-hover-background-);
+  color: #fff;
 }
 
 /* sections */
@@ -154,14 +160,26 @@ header nav ul button {
   color: var(--Light-red-CTA-text-);
   font-family: var(--font-ubuntu);
   padding: 20px 30px;
+  width: 170px;
   background-color: transparent;
   color: var(--White-text);
   font-weight: 700;
+  cursor: pointer;
+}
+
+#modern-platform div div button:hover {
+  background-color: #fff;
+  color: var(--Light-red-CTA-text-);
 }
 
 .accent-button {
   background-color: white !important;
   color: var(--Light-red-CTA-text-) !important;
+}
+
+.accent-button:hover {
+  background-color: var(--Very-light-red-CTA-hover-background-) !important;
+  color: #fff !important;
 }
 
 /*  section 2 */
@@ -381,6 +399,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 1em;
+  cursor: pointer;
 }
 
 .footer-menu li {
@@ -390,4 +409,124 @@ footer {
 
 .hidden {
   display: none;
+}
+
+/* Responsive styles */
+
+@media (max-width: 1200px) {
+  .menu-desktop {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  #modern-platform {
+    height: 700px;
+  }
+  #modern-platform div h1 {
+    font-size: 2.6em;
+    font-weight: 500;
+  }
+  #modern-platform div {
+    width: 80%;
+    text-align: center;
+  }
+  #modern-platform div h2 {
+    font-size: 1.3em;
+    line-height: 1.6;
+  }
+  #modern-platform div div {
+    gap: 1em;
+    width: 100%;
+    margin-top: 2.2em;
+  }
+  #modern-platform div div button {
+    width: 100%;
+    border-radius: 30px;
+  }
+  .phones {
+    position: absolute;
+    width: 350px;
+    margin: 0 auto;
+    left: 70px;
+    transform: translateY(-770px);
+  }
+  .header-inner-content {
+    justify-content: space-between;
+  }
+
+  #designed-future {
+    height: 1200px;
+    background-position: top;
+    background-image: url(./images/illustration-editor-mobile.svg);
+    margin: 14em 0;
+  }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #designed-future .container h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 14em;
+  }
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .column {
+    align-items: center;
+    text-align: center;
+  }
+  .text {
+    width: 85%;
+  }
+  #art-infrastructure {
+    height: 650px;
+    align-items: flex-end;
+  }
+  #art-infrastructure div {
+    flex-direction: column;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto 3em auto;
+  }
+  #free-powerful-tooling {
+    flex-direction: column;
+    background-image: url(./images/illustration-laptop-mobile.svg);
+    background-position: top;
+    background-size: 120%;
+  }
+  #free-powerful-tooling .container {
+    flex-direction: column;
+  }
+  #free-powerful-tooling .wrapper {
+    flex-direction: column;
+    margin-top: 30em;
+  }
+  footer {
+    height: 100%;
+    width: 100%;
+  }
+  footer .footer-inner {
+    margin-top: 4em;
+    margin-bottom: 4em;
+  }
+
+  .footer-menu {
+    grid-template-columns: 1fr;
+    text-align: center;
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  .footer-logo {
+    background-color: aqua;
+    margin: 0 auto;
+    background-color: red;
+  }
+  .footer-menu,
+  .footer-menu img {
+    gap: 2.5em;
+  }
 }
