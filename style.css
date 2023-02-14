@@ -207,6 +207,7 @@ header nav ul button:hover {
   border-radius: 30px;
   font-family: var(--font-overpass);
   font-weight: 900;
+  font-size: 1em;
 }
 
 hr {
